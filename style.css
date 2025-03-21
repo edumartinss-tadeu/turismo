@@ -25,18 +25,69 @@
     font-size: 16px;
     font-weight: bold;
     color: #E1624F;
+    ;
 }
 
-h1 {
+.Titulo-Busan {
     font-family: "Open Sans", sans-serif;
     font-size: 36px;
     font-weight: bold;
     color: black;
+    line-height: 10%;
 }
 
-.Busan { 
+.Busan-Foto { 
     width: 1120px;
     height: 729px;
     box-sizing: border-box;
+    border-radius: 28px;
+
+
+}
+
+.busan-texto { 
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    color: #696969;
+    text-align: center;
+}
+
+.Abertura {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #E1624F;
+    margin-top: 64px;
+    
+}
+
+#content-list { 
+    width: 1120px;
+    height: 2020px;
+}
+
+.Destinos {
+    font-family: "Open Sans", sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: black;
+    line-height: 10%;
+
+}
+
+p { 
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-style: regular;
+    color: #696969;
+    text-align: justify;
+}
+
+.Haedong-Foto { 
+    width: 1100px;
+    height: 340px;
+    box-sizing: border-box;
+    border-radius: 28px;
 
 }
