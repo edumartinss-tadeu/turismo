@@ -1,3 +1,12 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    color: #696969
+}
+
+
 #page {
     box-sizing: border-box;
     width: 1440px;
@@ -28,7 +37,7 @@
     ;
 }
 
-.Titulo-Busan {
+.busan-title {
     font-family: "Open Sans", sans-serif;
     font-size: 36px;
     font-weight: bold;
@@ -36,7 +45,7 @@
     line-height: 10%;
 }
 
-.Busan-Foto { 
+.busan-picture { 
     width: 1120px;
     height: 729px;
     box-sizing: border-box;
@@ -45,17 +54,13 @@
 
 }
 
-.busan-texto { 
-    font-family: "Open Sans", sans-serif;
+.busan-text { 
     font-size: 16px;
     font-style: italic;
-    color: #696969;
     text-align: center;
 }
 
-.Abertura {
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
+.lovers {
     font-weight: bold;
     color: #E1624F;
     margin-top: 64px;
@@ -67,9 +72,7 @@
     height: 2020px;
 }
 
-.Destinos {
-    font-family: "Open Sans", sans-serif;
-    font-size: 36px;
+.destinys {
     font-weight: bold;
     color: black;
     line-height: 10%;
@@ -77,14 +80,11 @@
 }
 
 p { 
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
     font-style: regular;
-    color: #696969;
     text-align: justify;
 }
 
-.Haedong-Foto { 
+.haedong-picture { 
     width: 1100px;
     height: 340px;
     box-sizing: border-box;
@@ -92,9 +92,12 @@ p {
 
 }
 
-.Templo-Haedong {
-    font-family: "Open Sans", sans-serif;
+h2 {
     font-size: 32px;
+
+}
+
+.haedong-temple {
     font-weight: bold;
     color: black;
     line-height: 10%;
@@ -102,22 +105,18 @@ p {
 }
 
 ul {
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
     font-weight: bold;
     color: #696969;
 }
 
-.História { 
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
+.history { 
     font-weight: bold;
     color: #0C51A7;
     padding-bottom: 48px;
 
 }
 
-.Foto-Beomeosa { 
+.beomeosa-picture { 
     width: 1100px;
     height: 340px;
     box-sizing: border-box;
@@ -125,15 +124,13 @@ ul {
 
 }
 
-.Templo-Beomeosa { 
-   font-family: "Open Sans", sans-serif;
-   font-size: 32px;
+.beomeosa-temple { 
    font-weight: bold;
    color: black;
    line-height: 10%;
 }
 
-.Foto-Yongdusan { 
+.yongdusan-picture { 
     width: 1100px;
     height: 340px;
     box-sizing: border-box;
@@ -141,48 +138,34 @@ ul {
     
 }
 
-.Parque-Yongdusan { 
-   font-family: "Open Sans", sans-serif;
-   font-size: 32px;
+.yongdusan-park { 
    font-weight: bold;
    color: black;
    line-height: 10%;
 }
 
-.Casais { 
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
+.couples { 
     color: #591b98;
 
 }
 
-.Familia { 
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
+.family { 
     color: #E5245E;
 }
 
-.Orcamento { 
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
+.budget { 
     color: #E95E10;
 }
 
-.Coisas { 
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
+.stuff { 
     font-style: regular;
-    color: #696969;
     text-align: center;
     padding-top: 40px;
     border-top: solid;
     border-width: 1px;
 }
 
-.Creditos { 
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
-    color: #696969;
+.credits { 
     text-align: center;
     padding-top: 40px;
 }
